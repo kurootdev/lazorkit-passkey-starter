@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@lazorkit/monorepo": "github:lazor-kit/lazor-kit",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
