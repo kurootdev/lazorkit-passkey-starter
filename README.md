@@ -1,3 +1,34 @@
+# Lazorkit Passkey Starter (Solana)
+
+## Overview
+
+This repository demonstrates a **realistic Lazorkit integration** in a Next.js environment, focusing on **passkey-based onboarding and smart wallet architecture on Solana**.
+
+Instead of exposing a fake `createWalletWithPasskey()` helper, this example documents how Lazorkit **actually orchestrates passkey wallets** through adapter and portal layers.
+
+The goal of this repo is to help Solana developers understand:
+- Where passkey onboarding lives in Lazorkit
+- Why it is not a one-liner API
+- How to integrate Lazorkit correctly in modern web apps
+
+---
+
+## What This Example Shows
+
+- Client-only Lazorkit integration in Next.js
+- Proper App Router usage
+- Passkey onboarding entry points
+- Architectural constraints and SDK boundaries
+- Common integration pitfalls and how to avoid them
+
+---
+
+## Tutorials
+
+- [`01-passkey-architecture.md`](./tutorials/01-passkey-architecture.md)  
+- [`02-nextjs-lazorkit-integration.md`](./tutorials/02-nextjs-lazorkit-integration.md)
+
+---
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
