@@ -9,7 +9,15 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@coral-xyz/anchor": "^0.32.1",
     "@lazorkit/monorepo": "github:lazor-kit/lazor-kit",
+    "@solana-program/token": "^0.9.0",
+    "@solana/kora": "^0.1.0",
+    "@solana/wallet-adapter-base": "^0.9.27",
+    "@solana/web3.js": "^1.98.4",
+    "@wallet-standard/wallet": "^1.1.0",
+    "buffer": "^6.0.3",
+    "js-sha256": "^0.11.1",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"

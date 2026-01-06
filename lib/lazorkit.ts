@@ -1,9 +1,13 @@
-import { Lazorkit } from "lazor-kit";
+"use client";
 
-/**
-  * Lazorkit client initialized for solana Devnet
-  * This handles passkey auth , smart wallets , and gasless transCTIONS
-*/
-  export const lazorkit = new Lazorkit({
-network: "devnet",
-});
+export async function createPasskeyWallet() {
+  const walletModule = await import(
+    "./vendor/lazorkit/packages/ts-sdk/core/wallet/actions"
+  );
+
+  const { createWalletWithPasskey } = walletModule;
+
+  return createWalletWithPasskey({
+    network: "devnet",
+  });
+}
